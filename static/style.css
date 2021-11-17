@@ -34,6 +34,12 @@ img {
 	margin: auto;
 }
 
+.logo-small {
+    width: 200px;
+    display: block;
+	margin: auto;
+}
+
 .form-client {
 	margin: 1rem 0;
 }
@@ -59,4 +65,8 @@ textarea {
 	outline: none;
 	margin-top: 1rem;
     
+}
+
+#message {
+    text-align: center;
 }
