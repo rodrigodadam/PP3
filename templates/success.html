@@ -14,12 +14,25 @@
         <!-- ===== START FORM ===== -->
         <form action="/submit" method="POST">
         <!-- === Client Name === -->
-            <h3>Client Name</h3>
-            <input type="text" name="client" placeholder="Please add you name">
-
-
+            <div class="form-client">
+                <h3>Client Name</h3>
+                <input type="text" name="client" placeholder="Please add you name">
+            </div>
 
         <!-- === Rating 1 to 10 === -->
+        <div class="form-group">
+            <h3>Please Rate Our Service</h3>
+            <input type="radio" name="rating" value="1" /> 1
+            <input type="radio" name="rating" value="2" /> 2
+            <input type="radio" name="rating" value="3" /> 3
+            <input type="radio" name="rating" value="4" /> 4
+            <input type="radio" name="rating" value="5" /> 5
+            <input type="radio" name="rating" value="6" /> 6
+            <input type="radio" name="rating" value="7" /> 7
+            <input type="radio" name="rating" value="8" /> 8
+            <input type="radio" name="rating" value="9" /> 9
+            <input type="radio" name="rating" value="10" checked /> 10
+          </div>
 
 
 
