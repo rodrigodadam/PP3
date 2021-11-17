@@ -9,10 +9,13 @@
 <body>
     <div class="container">
         <!-- ===== COMPANY LOGO ===== -->
-
+        <img src="{{ url_for('static', filename='dgrouplogo.png') }}" alt="dgroup" class="logo">
 
         <!-- ===== START FORM ===== -->
+        <form action="/submit" method="POST">
         <!-- === Client Name === -->
+            <h3>Client Name</h3>
+            <input type="text" name="client" placeholder="Please add you name">
 
 
 
@@ -23,7 +26,7 @@
         <!-- === Client Comment === -->
 
 
-
+        </form>
     </div>
 </body>
 </html>
