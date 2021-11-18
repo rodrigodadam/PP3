@@ -12,6 +12,11 @@
     <div class="container">
         <!-- ===== COMPANY LOGO ===== -->
         <img src="../static/dgrouplogo.png" alt="dgroup" class="company-logo">
+
+        <!--  Info if the client do not insert the required fields -->
+        {% if message %}
+            <p class="info">{{ message | safe }}</p>
+        {% endif %}
   
         <!-- ===== START FORM ===== -->
         <form action="/submit" method="POST">
