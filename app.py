@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
@@ -19,7 +20,7 @@ def submit():
         # Simple validation, if the client do not insert the name He'll 
         # receive a message to imput the name and index.html will be render again
         if client == '':
-            return render_template('index.html', message='Please inser all required informations')
+            return render_template('index.html', message='Please insert all required informations')
         return render_template('success.html')
 
 
