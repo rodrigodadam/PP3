@@ -13,17 +13,7 @@ if __name__ == "__main__":
 
 
 
-# class Feedback(base):
-#     __tablename__ = 'feedback'
-#     id = Column(Integer, primary_key=True)
-#     client = Column(String(150))
-#     rating = Column(Integer)
-#     comments = Column(String(500))
 
-#     def __init__(self, client, rating, comments):
-#         self.client = client
-#         self.rating = rating
-#         self.comments = comments
 
 
 
@@ -32,7 +22,7 @@ if __name__ == "__main__":
 
 
 # # Made the request form should get the data and render the success page.
-# # TODO - Create a JS popup to give the feedback that the informations was received.
+# # - Create a JS popup to give the feedback that the informations was received.
 # @app.route('/submit', methods=['POST'])
 # def submit():
 #     if request.method == 'POST':
@@ -46,6 +36,3 @@ if __name__ == "__main__":
 #             return render_template('index.html', message='Please insert all required informations')
 #         return render_template('success.html')
 
-
-# if __name__ == '__main__':
-#     app.run()
