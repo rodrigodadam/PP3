@@ -9,16 +9,16 @@ def home():
 
 
 # Made the request form should get the data and render the success page.
-# - Create a JS popup to give the feedback that the informations was received.
+# TODO Create a JS popup to give the feedback.
 @app.route('/submit', methods=['POST'])
 def submit():
     if request.method == 'POST':
         fback = Feedback(
-            client = request.form['client'],
-            rating = request.form['rating'],
-            comments = request.form['comments']
+            client=request.form['client'],
+            rating=request.form['rating'],
+            comments=request.form['comments']
         )
-        #Simples Validation to do not wntry empty fields.
+        # Simples Validation to do not wntry empty fields.
         if request.form['client'] == "" or request.form['comments'] == "":
             return render_template('index.html', message='Please enter all required fields')
         db.session.add(fback)
