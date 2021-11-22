@@ -1,7 +1,36 @@
 from flask import Flask, render_template, request
-from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import (
+    create_engine, Column, Integer, String
+)
+
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 
 app = Flask(__name__)
+
+
+db = create_engine("postgresql:///dgroup")
+base = declarative_base()
+
+
+
+
+
+
+class Feedback(base):
+    __tablename__ = 'feedback'
+    id = Column(Integer, primary_key=True)
+    client = Column(String(150))
+    rating = Column(Integer)
+    comments = Column(String(500))
+
+    def __init__(self, client, rating, comments):
+        self.client = client
+        self.rating = rating
+        self.comments = comments
+
+
+
 
 @app.route('/')
 def index():
@@ -25,5 +54,4 @@ def submit():
 
 
 if __name__ == '__main__':
-    app.debug = True
     app.run()
