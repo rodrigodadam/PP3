@@ -206,58 +206,45 @@ git push - This command is used to push all committed changes to the GitHub repo
 
 Create application:
 
-Navigate to Heroku.com and login
-Click on the new button
-Select create new app
-Enter the app name
-Select region
+Navigate to Heroku.com and login<br>
+Click on the new button<br>
+Select create new app<br>
+Enter the app name<br>
+Select region<br>
 
-Set up connection to Github Repository:
-
-
-Click the deploy tab and select GitHub - Connect to GitHub
-
-A prompt to find a github repository to connect to will then be displayed
-
-Enter the repository name for the project and click search
-
-Once the repo has been found, click the connect button
-
-Set environment variables:
+Set up connection to Github Repository:<br>
 
 
+Click the deploy tab and select GitHub - Connect to GitHub<br>
+A prompt to find a github repository to connect to will then be displayed<br>
+Enter the repository name for the project and click search<br>
+Once the repo has been found, click the connect button<br>
 
-Click the settings tab and then click the Reveal Config Vars button and add the following:
+Set environment variables:<br>
 
+Click the settings tab and then click the Reveal Config Vars button and add the following:<br>
 
+key: DATABASE_URL, (postgress uri)<br>
+key: DEBUG, False<br>
+key: IP, 0.0.0.0<br>
+key: PORT, 5000<br>
+key: SECRET_KEY, value: (This is a custom secret key set up for configuration to keep client-side sessions secure)<br>
+Enable automatic deployment:<br>
 
-key: DATABASE_URL, (postgress uri)
+Click the Deploy tab<br>
+In the Automatic deploys section, choose the branch you want to deploy from then click Enable Automation Deploys.<br>
+Run Locally<br>
+Note: The project will not run locally with database connections unless the user sets up an env.py file configuring IP, PORT, DATABASE_URL and SECRET_KEY. You must have the connection details in order to do this. These details are private and not disclosed in this repository for security purposes.<br>
 
-key: DEBUG, False
+Navigate to the GitHub Repository.<br>
+Click the Code drop down menu.<br>
+Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.<br>
+Open your developement editor of choice and open a terminal window in a directory of your choice.<br>
+Use the 'git clone' command in terminal followed by the copied git URL.<br>
+A clone of the project will be created locally on your machine.<br>
+Once the project has been loaded into an IDE of choice, run the following command in the shell to install all the required packages:<br>
 
-key: IP, 0.0.0.0
-
-key: PORT, 5000
-
-key: SECRET_KEY, value: (This is a custom secret key set up for configuration to keep client-side sessions secure)
-
-Enable automatic deployment:
-
-
-Click the Deploy tab
-In the Automatic deploys section, choose the branch you want to deploy from then click Enable Automation Deploys.
-Run Locally
-Note: The project will not run locally with database connections unless the user sets up an env.py file configuring IP, PORT, DATABASE_URL and SECRET_KEY. You must have the connection details in order to do this. These details are private and not disclosed in this repository for security purposes.
-
-Navigate to the GitHub Repository.
-Click the Code drop down menu.
-Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
-Open your developement editor of choice and open a terminal window in a directory of your choice.
-Use the 'git clone' command in terminal followed by the copied git URL.
-A clone of the project will be created locally on your machine.
-Once the project has been loaded into an IDE of choice, run the following command in the shell to install all the required packages:
-
-pip install -r requirements.txt
+pip install -r requirements.txt<br>
 
   <div align="right"><a href="#top">🔝</a></div>
 
@@ -265,9 +252,9 @@ pip install -r requirements.txt
 
 ### ACKNOWLEDGEMENTS
 
-My Dear Friend Rimom Costa for all support.
-My Mentor Anthony for continuous helpful feedback.
-All Code Institute Tutor Support.
+My Dear Friend Rimom Costa for all support.<br>
+My Mentor Anthony for continuous helpful feedback.<br>
+All Code Institute Tutor Support.<br>
 
 
 <div align="right"><a href="#top">🔝</a></div>
