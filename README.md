@@ -112,33 +112,21 @@ This is a feedback page to confirm to the customer that the message has been sen
 
 For the background color I used (#F1ECEC) to avoid the white disturbment with the forms. To submit was used a similar color os D Group Logo (#FF7F00).
 
-
-<div align="center">
-
-![Color Pallet]()
-
-</div>
-
 <br>
-
-- **Typography**
-
-# TO DO
-
-<div align="right"><a href="#top">🔝</a></div>
 
 
 ## FEATURES
 
 ### Existing Features
 
-This project is well-structured to work efficiently and be modified as needed.
-
-# TO DO
+This project is well-structured to work efficiently, the current DataBase is postgres DB from Heroku's.
 
 ### Features Left To Implement
 
-# TO DO
+Build a complete CRUD and inset to D Group Admin panel to control all CRUD cicle.
+Insert a pop up to give confirmation about the message sent.
+Change to official D Group Database after aprovation.
+Insert a new field with a list of all produts that D Group sells.
 
 
 <div align="right"><a href="#top">🔝</a></div>
@@ -184,7 +172,13 @@ This project is well-structured to work efficiently and be modified as needed.
 
 ## PROJECT BARRIERS & SOLUTIONS
 
-# TO DO
+- **DB-Link GitPod**
+
+Was difficult to understand how to link the DB with gitpod. After a long time I checked that every time I needed to use set_pg before running the app. This was really complicated at first.
+
+- **Deploy to Heroku**
+
+In my first try the deployment had an error and failed a lot of times. However after a help from Code Institute Tutor that ask me about some item in my pipfile, I checked it with more care and I found the problem that my pipfile was starting with psql and not [[Source]]
 
 ### Test Strategy
 
