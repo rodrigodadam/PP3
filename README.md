@@ -1,5 +1,3 @@
-# IN PROGRESS
-
 <div align="center">
 <h1>Client Feedback</h1>
 </div>
@@ -14,9 +12,11 @@ The MVP is based in Python using Flask framework to create all migrations and de
 Link to the web-application available [HERE.](https://feedback-dgroup.herokuapp.com/)
 
 <br>
+<div align="center">
 
 ![Home Page](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/dgrouplogo.png)
 
+</div>
 <br>
 
 # Table of Contents
@@ -53,13 +53,11 @@ The initial project is a MVP without complete CRUD, this is just a MVP with Crea
 
 The WebApp is designed for all D Group Customers who would like to give feedback about the company's product or services. This WebApp is consisted in a homepage and a success page. The homepage has a form with some fields to be completed and after the client submit the form, he'll be redirected to a success page to confirm that the form was submitted.
 
-- ### Developer Strategy Plan
-
-# TO DO
-
 <div align="right"><a href="#top">🔝</a></div>
 
+
 ## Structure Plan
+
 
 ### Front-end
 
@@ -97,12 +95,6 @@ This is a feedback page to confirm to the customer that the message has been sen
 <div align="right"><a href="#top">🔝</a></div>
 
 <br>
-
-
-### Wireframes
-
-
-- **Full wireframes can be found [here]()**
 
 
 ### Design Plan
