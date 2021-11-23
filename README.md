@@ -182,7 +182,14 @@ In my first try the deployment had an error and failed a lot of times. However a
 
 ### Test Strategy
 
-# TO DO
+Testing is required on all features and user stories documented in this README. All clickable links must redirect to the correct pages. 
+
+ - HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frodrigodadam.github.io%2Fscrum-master-quiz%2F)
+
+ - CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frodrigodadam.github.io%2Fscrum-master-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
+
+ - JavaScript code must pass through the [JSHint Validator](https://jshint.com/)
+
 
 ## Deployment
 
