@@ -7,6 +7,16 @@
  ![PEP8 Online](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/__init__.png)
 
 
- - **models.py**
+- **models.py**
 
  ![PEP8 Online](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/models.png)
+
+
+- **routes.py**
+
+ ![PEP8 Online](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/routes.png)
+
+
+- **app.py**
+
+ ![PEP8 Online](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/routes.png)
