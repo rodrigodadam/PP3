@@ -24,7 +24,6 @@ Link to the web-application available [HERE.](https://feedback-dgroup.herokuapp.
 - [UX]()
   * [Project Goals](#Project-Goals)
   * [Users Experience Plan](#Users-Experience-Plan)
-  * [Developer Strategy Plan](#Developer-Strategy-Plan)
   * [Front-End](#Front-end)
 
 
