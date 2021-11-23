@@ -206,26 +206,29 @@ git push - This command is used to push all committed changes to the GitHub repo
 
 Create application:
 
-Navigate to Heroku.com and login.
-Click on the new button.
-Select create new app.
-Enter the app name.
-Select region.
+Navigate to Heroku.com and login
+Click on the new button
+Select create new app
+Enter the app name
+Select region
 Set up connection to Github Repository:
 
-Click the deploy tab and select GitHub - Connect to GitHub.
-A prompt to find a github repository to connect to will then be displayed.
-Enter the repository name for the project and click search.
-Once the repo has been found, click the connect button.
+
+Click the deploy tab and select GitHub - Connect to GitHub
+A prompt to find a github repository to connect to will then be displayed
+Enter the repository name for the project and click search
+Once the repo has been found, click the connect button
 Set environment variables:
 
+
 Click the settings tab and then click the Reveal Config Vars button and add the following:
+
 
 key: DATABASE_URL, (postgress uri)
 key: DEBUG, False
 key: IP, 0.0.0.0
 key: PORT, 5000
-key: SECRET_KEY, value: (This is a custom secret key set up for configuration to keep client-side sessions secure).
+key: SECRET_KEY, value: (This is a custom secret key set up for configuration to keep client-side sessions secure)
 Enable automatic deployment:
 
 Click the Deploy tab
