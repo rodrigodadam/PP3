@@ -63,7 +63,7 @@ The WebApp is designed for all D Group Customers who would like to give feedback
 
 ### Front-end
 
-The webap consists only in **Home** page, where you can find the youtube video that you are looking for.
+The WebApp consists in **Home** page, where the client can find the form with the follow fields to be completed, **Client Name**, **Rating** and **Comments**. The **success** page is a feedback return to the client to confirm that the form was sent to us.
 
 <br>
 
@@ -71,7 +71,7 @@ The webap consists only in **Home** page, where you can find the youtube video t
 
 <br>
 
-![Home Page]()
+![Home Page](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/homepage.png)
 
 <br>
 
