@@ -207,10 +207,15 @@ git push - This command is used to push all committed changes to the GitHub repo
 Create application:
 
 Navigate to Heroku.com and login
+
 Click on the new button
+
 Select create new app
+
 Enter the app name
+
 Select region
+
 Set up connection to Github Repository:
 
 
