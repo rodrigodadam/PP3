@@ -195,25 +195,71 @@ Testing is required on all features and user stories documented in this README. 
 
 ### Project Creation
 
-# TO DO
+To create this project I used the CI Gitpod Full Template by navigating here and clicking the 'Use this template' button.
+
+I was then directed to the create new repository from the template page and entered in my desired repo name, then clicked Create repository from template button.
+
+Once created, I navigated to my new repository on GitHub and clicked the Gitpod button which built my workspace.
+
+The following commands were used for version control throughout the project:
+
+git add filename - This command was used to add files to the staging area before committing.
+
+git commit -m "commit message explaining the updates" - This command was used to to commit changes to the local repository.
+
+git push - This command is used to push all committed changes to the GitHub repository.
 
 
-### Deployment to GitHub
+### Deployment to Heroku
 
-# TO DO
+Create application:
+
+Navigate to Heroku.com and login.
+Click on the new button.
+Select create new app.
+Enter the app name.
+Select region.
+Set up connection to Github Repository:
+
+Click the deploy tab and select GitHub - Connect to GitHub.
+A prompt to find a github repository to connect to will then be displayed.
+Enter the repository name for the project and click search.
+Once the repo has been found, click the connect button.
+Set environment variables:
+
+Click the settings tab and then click the Reveal Config Vars button and add the following:
+
+key: DATABASE_URL, (postgress uri)
+key: DEBUG, False
+key: IP, 0.0.0.0
+key: PORT, 5000
+key: SECRET_KEY, value: (This is a custom secret key set up for configuration to keep client-side sessions secure).
+Enable automatic deployment:
+
+Click the Deploy tab
+In the Automatic deploys section, choose the branch you want to deploy from then click Enable Automation Deploys.
+Run Locally
+Note: The project will not run locally with database connections unless the user sets up an env.py file configuring IP, PORT, DATABASE_URL and SECRET_KEY. You must have the connection details in order to do this. These details are private and not disclosed in this repository for security purposes.
+
+Navigate to the GitHub Repository.
+Click the Code drop down menu.
+Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+Open your developement editor of choice and open a terminal window in a directory of your choice.
+Use the 'git clone' command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.
+Once the project has been loaded into an IDE of choice, run the following command in the shell to install all the required packages:
+
+pip install -r requirements.txt
 
   <div align="right"><a href="#top">🔝</a></div>
 
 ## CREDITS
 
-# TO DO
+### ACKNOWLEDGEMENTS
 
-  <div align="right"><a href="#top">🔝</a></div>
-
-
-## ACKNOWLEDGEMENTS
-
-# TO DO
+My Dear Friend Rimom Costa for all support.
+My Mentor Anthony for continuous helpful feedback.
+All Code Institute Tutor Support.
 
 
 <div align="right"><a href="#top">🔝</a></div>
