@@ -98,19 +98,6 @@ This is a feedback page to confirm to the customer that the message has been sen
 
 <br>
 
-- **Project Structure** 
-
-<br>
-<div align="center">
-
-![Project Structure]()
-
-</div>
-<br>
-
-# TO DO
-
-
 
 ### Wireframes
 
@@ -123,7 +110,7 @@ This is a feedback page to confirm to the customer that the message has been sen
 
 - **Colors**
 
-# TO DO
+For the background color I used (#F1ECEC) to avoid the white disturbment with the forms. To submit was used a similar color os D Group Logo (#FF7F00).
 
 
 <div align="center">
