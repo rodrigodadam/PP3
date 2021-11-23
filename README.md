@@ -15,7 +15,7 @@ Link to the web-application available [HERE.](https://feedback-dgroup.herokuapp.
 
 <br>
 
-<h2 align="center"><img src=""></h2>
+![Home Page](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/dgrouplogo.png)
 
 <br>
 
