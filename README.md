@@ -75,7 +75,19 @@ The WebApp consists in **Home** page, where the client can find the form with th
 
 <br>
 
-# TO DO
+The main page of the website. There is a form, and 1 submit button. 
+
+<br>
+
+- **Success Page** (`success.html`)
+
+<br>
+
+![Home Page](https://github.com/rodrigodadam/PP3/blob/main/dgroup/static/success.png)
+
+<br>
+
+This is a feedback page to confirm to the customer that the message has been sent and to thank them for their time.
 
 <br>
 
