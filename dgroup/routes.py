@@ -20,7 +20,9 @@ def submit():
         )
         # Simples Validation to do not wntry empty fields.
         if request.form['client'] == "" or request.form['comments'] == "":
-            return render_template('index.html', message='Please enter all required fields')
+            return render_template(
+                'index.html', message='Please enter all required fields'
+                )
         db.session.add(fback)
         db.session.commit()
         return render_template("success.html")
