@@ -1,108 +1,218 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# IN PROGRESS
 
-Welcome rodrigodadam,
+<div align="center">
+<h1>Client Feedback</h1>
+</div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This Web App was created to complete the third Milestone Project for the Code Institute's Full Stack Developer course.
+This is a Client Feedback webapp.
+The MVP is based in Python using Flask framework to create all migrations and deployed in Heroku's.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Link to the web-application available [HERE.](https://feedback-dgroup.herokuapp.com/)
 
-`python3 -m http.server`
+<br>
 
-A blue button should appear to click: _Make Public_,
+<h2 align="center"><img src=""></h2>
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Table of Contents
 
-A blue button should appear to click: _Make Public_,
+- [UX]()
+  * [Project Goals](#Project-Goals)
+  * [Users Experience Plan](#Users-Experience-Plan)
+  * [Developer Strategy Plan](#Developer-Strategy-Plan)
+  * [Front-End](#Front-end)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [Features](#Features)
 
-To log into the Heroku toolbelt CLI:
+- [Technologies Used](#Technologies-Used)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- [Resources](#Resources)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- [Project Barriers & Solutions](#Project-Barriers-&-Solutions)
 
-------
+- [Deployment](#Deployment)
 
-## Release History
+- [Credits](#Credits)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Project Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# TO DO
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Users Experience Plan
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# TO DO
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- ### Developer Strategy Plan
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# TO DO
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<div align="right"><a href="#top">🔝</a></div>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Structure Plan
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Front-end
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The webap consists only in **Home** page, where you can find the youtube video that you are looking for.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<br>
 
-------
+- **Home Page** (`index.html`)
 
-## FAQ about the uptime script
+<br>
 
-**Why have you added this script?**
+![Home Page]()
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<br>
 
-**How will this affect me?**
+# TO DO
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<br>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br>
 
-**So….?**
+<div align="right"><a href="#top">🔝</a></div>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<br>
 
-**Can I opt out?**
+- **Project Structure** 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<br>
+<div align="center">
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Project Structure]()
 
-**Anything more?**
+</div>
+<br>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# TO DO
 
----
 
-Happy coding!
+
+### Wireframes
+
+
+- **Full wireframes can be found [here]()**
+
+
+### Design Plan
+
+
+- **Colors**
+
+# TO DO
+
+
+<div align="center">
+
+![Color Pallet]()
+
+</div>
+
+<br>
+
+- **Typography**
+
+# TO DO
+
+<div align="right"><a href="#top">🔝</a></div>
+
+
+## FEATURES
+
+### Existing Features
+
+This project is well-structured to work efficiently and be modified as needed.
+
+# TO DO
+
+### Features Left To Implement
+
+# TO DO
+
+
+<div align="right"><a href="#top">🔝</a></div>
+
+## TECHNOLOGIES USED
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML) 
+- [CSS3](https://en.wikipedia.org/wiki/CSS) 
+- [Google Fonts](https://fonts.google.com/) 
+- [Font Awesome](https://fontawesome.com/) 
+- [Gitpod](https://www.gitpod.io/) 
+- [Git](https://git-scm.com/) 
+- [GitHub](https://github.com/) 
+
+
+<div align="right"><a href="#top">🔝</a></div>
+
+## RESOURCES
+
+### General Resources
+
+- Code Institute Course Materials
+- [Stack Overflow](https://stackoverflow.com/)
+- [YouTube](https://www.youtube.com/)
+- [W3schools](https://www.w3schools.com/)
+- [Google](https://www.google.com/)
+
+### Tools
+
+- [ImageResizer](https://imageresizer.com/)
+- [PostImages](https://postimages.org/)
+- [Canva](https://www.canva.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+- [Arty Click](https://colors.artyclick.com/)
+- [AMI Website Mockup Generator](http://ami.responsivedesign.is/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Jshint](https://jshint.com/)
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+
+<div align="right"><a href="#top">🔝</a></div>
+
+## PROJECT BARRIERS & SOLUTIONS
+
+# TO DO
+
+### Test Strategy
+
+# TO DO
+
+## Deployment
+
+### Project Creation
+
+# TO DO
+
+
+### Deployment to GitHub
+
+# TO DO
+
+  <div align="right"><a href="#top">🔝</a></div>
+
+## CREDITS
+
+# TO DO
+
+  <div align="right"><a href="#top">🔝</a></div>
+
+
+## ACKNOWLEDGEMENTS
+
+# TO DO
+
+
+<div align="right"><a href="#top">🔝</a></div>
