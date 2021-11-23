@@ -43,14 +43,15 @@ Link to the web-application available [HERE.](https://feedback-dgroup.herokuapp.
 
 ## Project Goals
 
-# TO DO
+The D Group Trade is an e-commerce company with their own website that also sells on ebay and amazon marketplaces. On eBay and Amazon they have the Feedback service provided from the marketplaces, however they haven't this pos-sale functionality in their own website.
+So to help the company to better understand the customers I decided to create this WebApp in Python to link, in the future, to D Group's official website and ask our clients to give us feedback about the services and products that D Group sells.
+ 
+The initial project is a MVP without complete CRUD, this is just a MVP with Create function to show to company directors how this will work and for Code Institute to complete the Milestone of Python essentials project.
 
 
 ## Users Experience Plan
 
-
-# TO DO
-
+The WebApp is designed for all D Group Customers who would like to give feedback about the company's product or services. This WebApp is consisted in a homepage and a success page. The homepage has a form with some fields to be completed and after the client submit the form, he'll be redirected to a success page to confirm that the form was submitted.
 
 - ### Developer Strategy Plan
 
