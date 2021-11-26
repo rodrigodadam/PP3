@@ -4,8 +4,6 @@
 
 <br>
 
-This Web App was created to complete the third Milestone Project for the Code Institute's Full Stack Developer course.
-This is a Client Feedback webapp.
 The MVP is based in Python using Flask framework to create all migrations and deployed in Heroku's.
 
 
@@ -139,7 +137,6 @@ Insert a new field with a list of all produts that D Group sells.
 
 ### General Resources
 
-- Code Institute Course Materials
 - [Stack Overflow](https://stackoverflow.com/)
 - [YouTube](https://www.youtube.com/)
 - [W3schools](https://www.w3schools.com/)
@@ -247,13 +244,3 @@ pip install -r requirements.txt<br>
 
   <div align="right"><a href="#top">🔝</a></div>
 
-## CREDITS
-
-### ACKNOWLEDGEMENTS
-
-My Dear Friend Rimom Costa for all support.<br>
-My Mentor Anthony for continuous helpful feedback.<br>
-All Code Institute Tutor Support.<br>
-
-
-<div align="right"><a href="#top">🔝</a></div>
